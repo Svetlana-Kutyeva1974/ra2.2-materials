@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.main-content{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.switch{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 20px;
+}
+
+
+.list {
+  display: block;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: left;
+}
+.card_image{
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  width: calc(100%/3 - 20px);
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.card_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+img{
+  padding: 10px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 20px;
+}
+
+
+.button-selected {
+  background-color: #6d6868;
+  color: white;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
