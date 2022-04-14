@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function ShopItem(props) {
   const {name, color, img, price} = props.item;
-  const {item} = props;
+  /*const {item} = props;
   console.log('prop cards---', item, '\n name--', item.name);
+  */
 
   return (
     <div className="card_list">

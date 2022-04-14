@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 function IconSwitch(props) {
    const {icon, onSwitch} = props;
@@ -16,6 +17,11 @@ function IconSwitch(props) {
         }
      </div>
    );
+}
+
+IconSwitch.propTypes = {
+  onSwitch: PropTypes.func,
+  icon: PropTypes.string
 }
 
 export default IconSwitch;
