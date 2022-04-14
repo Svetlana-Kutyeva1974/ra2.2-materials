@@ -33,8 +33,8 @@
 
 .card_image{
   width: 100%;
-  min-width: 100px;
-  max-width: 200px;
+  min-width: 50px;
+  max-width: 100px;
 }
 
 .card {
@@ -48,8 +48,12 @@
 .card_list {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
+  background-color: #dedbdb;
+  border: 5px solid white;
+
 }
 
 .card_footer {

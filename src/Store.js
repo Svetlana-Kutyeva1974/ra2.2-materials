@@ -27,7 +27,7 @@ class Store extends React.Component {
             icon={this.state.selected}
             onSwitch={evt => this.onClickButton(evt)}
           />
-          {this.state.selected==='view_list' ? <ListView items={products} /> : <CardView cards={products} />}
+          {this.state.selected==='view_list' ? <CardView cards={products} /> : <ListView items={products} />}
         </div>
       </>
     );
