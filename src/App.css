@@ -26,8 +26,11 @@
   padding: 10px;
   justify-content: left;
 }
+
 .card_image{
   width: 100%;
+  min-width: 100px;
+  max-width: 200px;
 }
 
 .card {
@@ -37,11 +40,19 @@
   padding: 10px;
 }
 
+.card_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 10px;
+}
+
 .card_footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  color: red;
 }
 
 .card_header {
@@ -53,6 +64,7 @@
 }
 
 img{
+  width: 100%;
   padding: 10px;
 }
 
@@ -64,9 +76,13 @@ img{
 }
 
 
-.button-selected {
-  background-color: #6d6868;
-  color: white;
+.button2{
+  color: red;
+  border: 1px solid red;
+}
+
+.card_price {
+  color: red;
 }
 
 .material-icons {

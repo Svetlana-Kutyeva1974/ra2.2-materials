@@ -15,7 +15,7 @@ export default function ShopCard(props) {
       </div>
       <footer className='card_footer'>
         <span className='card_price'>${price}</span>
-        <button className='button'>ADD TO CART</button>
+        <button className='button2'>ADD TO CART</button>
       </footer>
     </div>
   )
