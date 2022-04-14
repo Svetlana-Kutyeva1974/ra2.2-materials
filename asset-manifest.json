@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra2.2-materials/static/css/main.2928f8b8.css",
+    "main.js": "/ra2.2-materials/static/js/main.b068c4dd.js",
+    "index.html": "/ra2.2-materials/index.html",
+    "main.2928f8b8.css.map": "/ra2.2-materials/static/css/main.2928f8b8.css.map",
+    "main.b068c4dd.js.map": "/ra2.2-materials/static/js/main.b068c4dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2928f8b8.css",
+    "static/js/main.b068c4dd.js"
+  ]
+}
